@@ -13,6 +13,7 @@ public class Author {
     
     private String name;
     private String age;
+    private boolean gender;     // False = Famela | True = Male
     
     public String getName(){
         return name;
@@ -28,5 +29,13 @@ public class Author {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public boolean isGender() {
+        return gender;
+    }
+
+    public void setGender(boolean gender)   {
+        this.gender = gender;
     }
 }

@@ -66,8 +66,6 @@ public class Book {
     public void setPublishinCompany(PublishingCompany publishinCompany) {
         this.publishinCompany = publishinCompany;
     }
-
-    @Override
     
     
 }
