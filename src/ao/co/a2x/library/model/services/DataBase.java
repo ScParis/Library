@@ -6,7 +6,9 @@
 package ao.co.a2x.library.model.services;
 
 import ao.co.a2x.library.model.Author;
-import ao.co.a2x.library.model.PublishinCompany;
+import ao.co.a2x.library.model.Book;
+import ao.co.a2x.library.model.PublishingCompany;
+import java.util.ArrayList;
 
 import java.util.List;
 
@@ -18,7 +20,7 @@ public class DataBase {
 
     private List<Book> books;
     private List<Author> authors;
-    private List<PublishinCompany> publishinCompanies;
+    private List<PublishingCompany> publishinCompanies;
 
     public DataBase() {
         authors = new ArrayList<>();
