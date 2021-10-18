@@ -75,3 +75,8 @@ Implemente 3 projetos básicos distintos de cada tipo de relacionamento, de sua 
 Com os códigos e execução, explique na pratica a diferença entre as três formas de relacionamento. 
 ### EXERCÍCIO 3: 
 Faça os diagramas de classes dos 3 exemplos apresentados em aula: Treino, Locação e Lista de compras. 
+
+
+-- http://thiagoccampos.blogspot.com/2012/11/projeto-biblioteca-codigo-java.html --
+-- https://github.com/steppat/livraria/tree/master/src/br/com/caelum/livraria --
+-- https://github.com/FelipeUmpierre/Livraria --
