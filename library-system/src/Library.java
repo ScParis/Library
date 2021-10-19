@@ -1,4 +1,4 @@
-import view.LoginView;
+import view.MainView;
 
 /**
  *
@@ -7,8 +7,8 @@ import view.LoginView;
 public class Library {
     
     public static void main(String[] args) {
-        LoginView login = new LoginView();
+        MainView main = new MainView();
     
-        login.setVisible(true);
+        main.setVisible(true);
     }
 }
