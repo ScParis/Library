@@ -414,7 +414,7 @@ public class JFLivro extends javax.swing.JFrame {
                 && (!jT5Status.getText().equals(""))) {
             return true;
         }
-        JOptionPane.showMessageDialog(rootPane, "Dados imcompletos.");
+        JOptionPane.showMessageDialog(rootPane, "Dados incompletos.");
         return false;
     }
     
