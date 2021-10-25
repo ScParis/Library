@@ -1,4 +1,6 @@
-﻿import javax.swing.JOptionPane;
+package com.library;
+
+import javax.swing.JOptionPane;
 
 public class ProgramaBiblioteca {
 	public static void main(String[] args) {
@@ -17,6 +19,8 @@ public class ProgramaBiblioteca {
 		while (opcao != 6) {
 			opcao = Integer.parseInt(JOptionPane.showInputDialog(null, opcoes, "Biblioteca " + biblio.getNome(),
 					JOptionPane.QUESTION_MESSAGE));
+
+					//comentário
 
 			switch (opcao) {
 				case 1:
